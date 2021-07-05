@@ -1,0 +1,100 @@
+<html>
+<head>
+<style>
+	.relative{
+		background-color:#f5f6f7;
+		height:100%
+	}
+	.head{
+		background-color:white;
+		width:100%;
+		height:70px;
+	}
+	.content{
+	
+		align-items: center;
+		padding-left:150px;
+	}
+	.form{
+		padding: 0 25 0 150;
+	}
+	.input{
+		padding: 15;
+		background-color:white;
+		width:60%;
+		border-radius: 10px;
+		border: white;
+	}
+	.but{
+		padding: 15 25 0 150;
+	}
+	.button{
+		cursor: pointer;
+		border: none;
+		width: 80px;
+		height: 80px;
+		background-color: white;
+	}
+	.or{
+		padding: 15 50 15 450;
+	}
+	.absolute{
+		background-color: white;
+		position:absolute;
+		top: 0;
+		left: 0;
+		width: 100px;
+		height:100%;
+		border: 1px solid black;
+		box-shadow: 14px 0px 17px 0px #adadad;
+	}
+	ul {
+		list-style:none;
+		padding-left:20px;
+		}
+		
+	li{
+		padding: 20px 0px 20px 0px;
+		justify-content: center;
+		cursor: pointer;
+		}
+    .lesson{
+		background-color:#80ceff;
+		border-left: 6px solid #0070b5 ;
+	}
+</style>
+</head>
+<body>
+<div class="relative">
+<div class= "head">
+</div>
+<div class="content">
+<h2 style="color:grey">ᐊ Videos</h2>
+<div class="form">
+<input class="input" type="url" name="url" id="url" placeholder="Enter URL Here" pattern="https://.*" size="30">
+</div>
+<h3 class="or">Or</h3>
+<div class="but">
+<button class = "button"type="button">Upload</button>
+</div>
+</div>
+<div class="absolute">
+<ul>
+<li><div class="logo"><img src ="" alt="logo"></div></li>
+<li><div class="students">
+<img src="profile.png" width="25px" height="25px"></img>
+<figcaption>Students</figcaption>
+</div></li>
+<li><div class="lesson">
+<img src="lessons.png" width="25px" height="25px"></img>
+<figcaption>Lessons</figcaption>
+</div></li>
+<li><div class="settings">
+<img src="setting.png" width="25px" height="25px"></img>
+<figcaption>Settings</figcaption>
+</div></li>
+</ul>
+</div>
+</div>
+</body>
+</html>
